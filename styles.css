@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1D0C15;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+/* -- Barre de Navigation */
+
+.navbar {
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.navbar .container {
+    background-color: #CECECE;
+    height: 80px;
+    box-shadow: 0px 10px 20px #944bbc60;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .container .title {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15;
+    font-weight: bold;
+    font-family: Ebrima;
+}
+
+.navbar .container .title img {
+    margin-left: 45px;
+}
+
+.navbar .container .links {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+
+.navbar .container .links a {
+    margin-right: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .container .links a:hover {
+    color: #EA5C1F;
+}
+
+/* Pour le script lorsque l'on scroll */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 10px 20px #944bbc60;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+/* -- Scroll to section -- */
+section {
+    scroll-margin-top: 90px;
+}
+
+/* -- Accueil -- */
+
+.section1 .container {
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.section1 .container .image {
+    height: 285px;
+    width: 225px;
+}
+
+.section1 .container .text {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 .container .text .title {
+    font-size: 35px;
+}
+
+.section1 .container .text .desc {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* -- Parcours -- */
+
+.section2 {
+    margin-top: 100px;
+    margin-left: 85px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.section2 .container .title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.section2 .container .title1 span {
+    background-color: #DDDDDD;
+    padding-right: 10px;
+}
+
+.section2 .container .title1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.65em;
+    border-top: 2.5px solid #944bbc60;
+    z-index: -1;
+}
+
+.section2 .container .scolarite {
+    margin-top: 50px;
+}
+
+.section2 .container .scolarite .title2 {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.section2 .container .title2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2.5px solid #944bbc60;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.section2 .container .diplome {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.section2 .container .diplome p {
+    padding-left: 10px;
+}
+
+.section2 .container .diplome .state {
+    color: #EA5C1F;
+    padding-left: 5px;
+}
+
+.section2 .container .certification {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.section2 .container .certification p {
+    padding-left: 10px;
+}
+
+.section2 .container .certification img {
+    height: 35px;
+    width: 35px;
+    margin-top: -5px;
+}
+
+.section2 .container .certification .state {
+    color: #EA5C1F;
+    padding-left: 5px;
+}
+
+/* -- Travaux -- */
+
+.section3 {
+    margin-top: 100px;
+    margin-left: 85px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.section3 .container .title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.section3 .container .title1 span {
+    background-color: #DDDDDD;
+    padding-right: 10px;
+}
+
+.section3 .container .title1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.65em;
+    border-top: 2.5px solid #944bbc60;
+    z-index: -1;
+}
+
+.section3 .container .title2 {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.section3 .container .title2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2.5px solid #944bbc60;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.section3 .container .projetsscolaires {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 215px;
+}
+
+.section3 .container .projetspersonnels {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 215px;
+}
+
+/* -- Contacts -- */
+
+.section4 {
+    margin-top: 100px;
+    margin-left: 85px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.section4 .container .title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.section4 .container .title1 span {
+    background-color: #DDDDDD;
+    padding-right: 10px;
+}
+
+.section4 .container .title1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.65em;
+    border-top: 2.5px solid #944bbc60;
+    z-index: -1;
+}
+
+.section4 .container .desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 .container .social {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 .container .social a {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.section4 .container .social a:hover {
+    color: #EA5C1F;
+}
+
+.section4 .container .social img {
+    height: 35px;
+    width: 35px;
+}
+
+.footer {
+    background-color: #CECECE;
+    height: 80px;
+    box-shadow: -10px -10px 20px #944bbc60;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.footer a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #EA5C1F;
+}
