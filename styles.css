@@ -262,6 +262,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .section3 .container .box-projets .projetsscolaires {
