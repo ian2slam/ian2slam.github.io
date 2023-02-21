@@ -322,7 +322,7 @@ section {
     margin-left: 215px;
 }
 
-/* -- Contacts -- */
+/* -- Compétences -- */
 
 .section4 {
     margin-top: 100px;
@@ -353,14 +353,76 @@ section {
     z-index: -1;
 }
 
+.section4 .container .title2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.section4 .container .title2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2.5px solid #944bbc60;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
 .section4 .container .desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+/* -- Contacts -- */
+
+.section5 {
+    margin-top: 100px;
+    margin-left: 85px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.section5 .container .title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.section5 .container .title1 span {
+    background-color: #DDDDDD;
+    padding-right: 10px;
+}
+
+.section5 .container .title1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.65em;
+    border-top: 2.5px solid #944bbc60;
+    z-index: -1;
+}
+
+.section5 .container .desc {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     display: flex;
     justify-content: center;
 }
 
-.section4 .container .social {
+.section5 .container .social {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin-top: 30px;
@@ -368,18 +430,18 @@ section {
     justify-content: center;
 }
 
-.section4 .container .social a {
+.section5 .container .social a {
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 70px;
     text-decoration: none;
 }
 
-.section4 .container .social a:hover {
+.section5 .container .social a:hover {
     color: #EA5C1F;
 }
 
-.section4 .container .social img {
+.section5 .container .social img {
     height: 35px;
     width: 35px;
 }
